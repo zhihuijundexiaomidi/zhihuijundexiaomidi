@@ -1,0 +1,22 @@
+#为注释符
+# *.txt	忽略所有 .txt结尾的文件
+# !lib.txt	但lib.txt除外
+# /temp 	build/
+# doc/*.txt
+#语法规则
+#以【/】表示目录以【*】匹配多个字符以【?】匹配单个字符
+
+#以【[]】匹配字符列
+
+#以【!】忽略文件或者目录
+
+MDK-ARM/*/*.crf
+MDK-ARM/*/*.d
+MDK-ARM/*/*.o
+MDK-ARM/*/*.axf
+MDK-ARM/*/*.htm
+MDK-ARM/*/*.hex
+MDK-ARM/*/*.lnp
+MDK-ARM/*/*.map
+MDK-ARM/*/*.sct
+MDK-ARM/*/*.dep
