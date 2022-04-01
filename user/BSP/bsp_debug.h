@@ -6,7 +6,7 @@
 
 extern UART_HandleTypeDef huart1;
 
-#define debug_printf(fmt,...)		printf(char *fmt,...)
+#define debug_printf(fmt)		printf(fmt)
 
 
 

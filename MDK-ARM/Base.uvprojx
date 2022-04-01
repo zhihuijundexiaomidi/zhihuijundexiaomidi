@@ -535,6 +535,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_timebase_tim.c</FilePath>
             </File>
+            <File>
+              <FileName>main.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Core\Inc\main.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -760,6 +765,16 @@
               <FileName>bsp_debug.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\user\BSP\bsp_debug.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user\BSP\bsp_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\user\BSP\bsp_exti.h</FilePath>
             </File>
           </Files>
         </Group>
